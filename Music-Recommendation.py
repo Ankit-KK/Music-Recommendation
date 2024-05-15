@@ -6,7 +6,7 @@ from datetime import datetime
 from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 
-music_df = pd.read_csv(r"C:\Users\kunal\Downloads\music_data.csv")
+music_df = pd.read_csv("music_data.csv")
 
 
 # Function to calculate weighted popularity scores based on release date
